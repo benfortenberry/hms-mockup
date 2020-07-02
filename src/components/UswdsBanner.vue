@@ -14,7 +14,7 @@
             <div class="grid-col-fill tablet:grid-col-auto">
               <p
                 class="usa-banner__header-text"
-              >An {{expanded}} official website of the United States government</p>
+              >An official website of the United States government</p>
               <p
                 class="usa-banner__header-action"
                 @click="expanded=!expanded"
