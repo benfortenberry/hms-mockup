@@ -25,7 +25,7 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/bootstrap/table">HETU</a>
+              <a class="nav-link" href="#/bootstrap/table">HETU</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Help</a>
@@ -183,7 +183,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 export default {
   name: "Home",
-  components: {},
+  components: {}
 };
 </script>
 <style>

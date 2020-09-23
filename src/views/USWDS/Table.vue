@@ -9,7 +9,7 @@
         <div class="usa-navbar">
           <div class="usa-logo" id="basic-logo">
             <em class="usa-logo__text">
-              <a href="/uswds/home" title="Home" aria-label="Home">HMS</a>
+              <a href="#/uswds/home" title="Home" aria-label="Home">HMS</a>
             </em>
           </div>
           <button class="usa-menu-btn">Menu</button>
@@ -20,10 +20,10 @@
           </button>
           <ul class="usa-nav__primary usa-accordion">
             <li class="usa-nav__primary-item">
-              <router-link class="usa-nav__link" to="/uswds/home">Access Member</router-link>
+              <router-link class="usa-nav__link" to="#/uswds/home">Access Member</router-link>
             </li>
             <li class="usa-nav__primary-item is-current">
-              <router-link class="usa-nav__link usa-current" to="/uswds/table">HETU</router-link>
+              <router-link class="usa-nav__link usa-current" to="#/uswds/table">HETU</router-link>
             </li>
             <li class="usa-nav__primary-item">
               <a class="usa-nav__link" href="javascript:void(0)">
@@ -114,7 +114,7 @@ export default {
   name: "Table",
   components: {
     UswdsBanner,
-    UswdsFooter,
+    UswdsFooter
   },
   data() {
     return {
@@ -122,51 +122,51 @@ export default {
         {
           first: "Kermit",
           last: "Frog",
-          middle: "A",
+          middle: "A"
         },
         {
           first: "Dr.",
           last: "Teeth",
-          middle: "B",
+          middle: "B"
         },
         {
           first: "Swedish",
           last: "Chef",
-          middle: "C",
+          middle: "C"
         },
         {
           first: "Bunson",
           last: "Honeydew",
-          middle: "D",
+          middle: "D"
         },
         {
           first: "Sam",
           last: "Eagle",
-          middle: "E",
+          middle: "E"
         },
         {
           first: "Fozzy",
           last: "Bear",
-          middle: "F",
+          middle: "F"
         },
         {
           first: "Oscar",
           last: "Grouch",
-          middle: "G",
+          middle: "G"
         },
         {
           first: "Big",
           last: "Bird",
-          middle: "H",
+          middle: "H"
         },
         {
           first: "Miss",
           last: "Piggy",
-          middle: "I",
-        },
-      ],
+          middle: "I"
+        }
+      ]
     };
-  },
+  }
 };
 </script>
 <style>

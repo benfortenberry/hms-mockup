@@ -110,59 +110,59 @@ export default {
   components: {
     Menubar,
     Menu,
-    InputText,
+    InputText
   },
   data() {
     return {
       sideItems: [
         {
-          label: "Member Detail",
+          label: "Member Detail"
           // icon: 'pi pi-refresh',
         },
         {
-          label: "Correspondence",
+          label: "Correspondence"
           // icon: 'pi pi-times',
         },
         {
-          label: "Test Summaries",
+          label: "Test Summaries"
           // icon: 'pi pi-external-link',
         },
         {
-          label: "Command Location",
+          label: "Command Location"
           // icon: 'pi pi-upload',
         },
         {
-          label: "Member Notes",
+          label: "Member Notes"
           // icon: 'pi pi-upload',
-        },
+        }
       ],
       items: [
         {
           label: "HMS",
-          to: "/prime/home",
-          icon: "",
+          to: "#/prime/home",
+          icon: ""
         },
         {
           label: "Access Member",
-          to: "/prime/home",
-          icon: "",
+          to: "#/prime/home",
+          icon: ""
         },
         {
           label: "HETU",
-          to: "/prime/table",
-          icon: "",
+          to: "#/prime/table",
+          icon: ""
         },
         {
           label: "Help",
-          icon: "",
+          icon: ""
         },
         {
           label: "Freedom of Information Act",
-          icon: "",
-        },
-      ],
+          icon: ""
+        }
+      ]
     };
-  },
+  }
 };
 </script>
 <style scoped>

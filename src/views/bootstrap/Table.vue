@@ -3,7 +3,7 @@
     <a href="/">mockup home</a>
     <div class="container">
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="/bootstrap/home">HMS</a>
+        <a class="navbar-brand" href="#/bootstrap/home">HMS</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -19,10 +19,10 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-              <a class="nav-link" href="/bootstrap/home">Access Member</a>
+              <a class="nav-link" href="#/bootstrap/home">Access Member</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="/bootstrap/table">
+              <a class="nav-link" href="#/bootstrap/table">
                 HETU
                 <span class="sr-only">(current)</span>
               </a>
@@ -116,51 +116,51 @@ export default {
         {
           first: "Kermit",
           last: "Frog",
-          middle: "A",
+          middle: "A"
         },
         {
           first: "Dr.",
           last: "Teeth",
-          middle: "B",
+          middle: "B"
         },
         {
           first: "Swedish",
           last: "Chef",
-          middle: "C",
+          middle: "C"
         },
         {
           first: "Bunson",
           last: "Honeydew",
-          middle: "D",
+          middle: "D"
         },
         {
           first: "Sam",
           last: "Eagle",
-          middle: "E",
+          middle: "E"
         },
         {
           first: "Fozzy",
           last: "Bear",
-          middle: "F",
+          middle: "F"
         },
         {
           first: "Oscar",
           last: "Grouch",
-          middle: "G",
+          middle: "G"
         },
         {
           first: "Big",
           last: "Bird",
-          middle: "H",
+          middle: "H"
         },
         {
           first: "Miss",
           last: "Piggy",
-          middle: "I",
-        },
-      ],
+          middle: "I"
+        }
+      ]
     };
-  },
+  }
 };
 </script>
 <style>

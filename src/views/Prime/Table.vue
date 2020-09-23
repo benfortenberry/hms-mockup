@@ -83,7 +83,7 @@ export default {
     InputText,
     Column,
     Button,
-    DataTable,
+    DataTable
   },
   data() {
     return {
@@ -97,7 +97,7 @@ export default {
           tcells: "Uknown",
           first: "Kermit",
           last: "Frog",
-          middle: "A",
+          middle: "A"
         },
         {
           type: "R",
@@ -108,7 +108,7 @@ export default {
           tcells: "Uknown",
           first: "Dr.",
           last: "Teeth",
-          middle: "B",
+          middle: "B"
         },
         {
           type: "R",
@@ -119,7 +119,7 @@ export default {
           tcells: "Uknown",
           first: "Swedish",
           last: "Chef",
-          middle: "C",
+          middle: "C"
         },
         {
           type: "R",
@@ -130,7 +130,7 @@ export default {
           tcells: "Uknown",
           first: "Bunson",
           last: "Honeydew",
-          middle: "D",
+          middle: "D"
         },
         {
           type: "R",
@@ -141,7 +141,7 @@ export default {
           tcells: "Uknown",
           first: "Sam",
           last: "Eagle",
-          middle: "E",
+          middle: "E"
         },
         {
           type: "R",
@@ -152,7 +152,7 @@ export default {
           tcells: "Uknown",
           first: "Fozzy",
           last: "Bear",
-          middle: "F",
+          middle: "F"
         },
         {
           type: "R",
@@ -163,7 +163,7 @@ export default {
           tcells: "Uknown",
           first: "Oscar",
           last: "Grouch",
-          middle: "G",
+          middle: "G"
         },
         {
           type: "R",
@@ -174,7 +174,7 @@ export default {
           tcells: "Uknown",
           first: "Big",
           last: "Bird",
-          middle: "H",
+          middle: "H"
         },
         {
           type: "R",
@@ -185,35 +185,35 @@ export default {
           tcells: "Uknown",
           first: "Miss",
           last: "Piggy",
-          middle: "I",
-        },
+          middle: "I"
+        }
       ],
       items: [
         {
           label: "HMS",
-          to: "/prime/home",
-          icon: "",
+          to: "#/prime/home",
+          icon: ""
         },
         {
           label: "Access Member",
-          to: "/prime/home",
-          icon: "",
+          to: "#/prime/home",
+          icon: ""
         },
         {
           label: "HETU",
-          icon: "",
+          icon: ""
         },
         {
           label: "Help",
-          icon: "",
+          icon: ""
         },
         {
           label: "Freedom of Information Act",
-          icon: "",
-        },
-      ],
+          icon: ""
+        }
+      ]
     };
-  },
+  }
 };
 </script>
 <style scoped>
