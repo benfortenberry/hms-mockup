@@ -14,8 +14,8 @@
           </Menubar>
         </div>
       </div>
-      <div class="p-grid">
-        <div class="p-col-12">
+      <div>
+        <div>
           <DataTable :value="patients">
             <Column header="Type" field="type"></Column>
             <Column header="Evaluation" field="evaluation"></Column>
