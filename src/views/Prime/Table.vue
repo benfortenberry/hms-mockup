@@ -16,7 +16,7 @@
       </div>
       <div>
         <div>
-          <DataTable :value="patients" class="p-datatable-sm">
+          <DataTable :value="patients" class="p-datatable-sm p-datatable-gridlines">
             <Column header="Type" field="type"></Column>
             <Column header="Evaluation" field="evaluation"></Column>
             <Column header="Service" field="service"></Column>
