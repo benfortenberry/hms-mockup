@@ -31,7 +31,7 @@
               <template #body="slotProps">
                 <Button
                   label="Evaluation Completed"
-                  class="p-button-sm p-button-default"
+                  class="p-button-sm mr-2 p-button-default"
                   @click="editProduct(slotProps.data)"
                 />
               </template>

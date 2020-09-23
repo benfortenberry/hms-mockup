@@ -15,10 +15,10 @@
         </div>
       </div>
       <div class="p-grid">
-        <div class="p-col-2 p-offset-2">
+        <div class="p-col-3 p-offset-2">
           <Menu :model="sideItems" />
         </div>
-        <div class="p-col-8">
+        <div class="p-col-7">
           <h3>Member Detail</h3>
 
           <div class="p-grid">
