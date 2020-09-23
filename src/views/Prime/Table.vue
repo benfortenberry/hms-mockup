@@ -1,7 +1,7 @@
 <template>
   <div>
     <a href="/">mockup home</a>
-    <div class="container">
+    <div>
       <div class="p-grid">
         <div class="p-col-8 p-offset-2">
           <Menubar :model="items">
