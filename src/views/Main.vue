@@ -5,14 +5,14 @@
       The only active links within are 'Access Member' and 'HETU'. One shows a possible member detail page and the other a table layout.</p>
   <br />
   <br />
-  <a href="/uswds/home" class="gradient-text">US Web Design System</a>
+  <a href="#/uswds/home" class="gradient-text">US Web Design System</a>
   <br />
   <br />
-    <a href="/bootstrap/home" class="gradient-text">Bootstrap</a>
+    <a href="#/bootstrap/home" class="gradient-text">Bootstrap</a>
       <br />
   <br />
    
-    <a href="/prime/home" class="gradient-text">Prime</a>
+    <a href="#/prime/home" class="gradient-text">Prime</a>
   </div>
 </template>
 
