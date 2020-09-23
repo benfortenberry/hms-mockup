@@ -139,17 +139,17 @@ export default {
       items: [
         {
           label: "HMS",
-          to: "#/prime/home",
+          to: "/prime/home",
           icon: ""
         },
         {
           label: "Access Member",
-          to: "#/prime/home",
+          to: "/prime/home",
           icon: ""
         },
         {
           label: "HETU",
-          to: "#/prime/table",
+          to: "/prime/table",
           icon: ""
         },
         {

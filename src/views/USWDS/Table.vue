@@ -9,7 +9,7 @@
         <div class="usa-navbar">
           <div class="usa-logo" id="basic-logo">
             <em class="usa-logo__text">
-              <a href="#/uswds/home" title="Home" aria-label="Home">HMS</a>
+              <a href="/uswds/home" title="Home" aria-label="Home">HMS</a>
             </em>
           </div>
           <button class="usa-menu-btn">Menu</button>
@@ -20,10 +20,10 @@
           </button>
           <ul class="usa-nav__primary usa-accordion">
             <li class="usa-nav__primary-item">
-              <router-link class="usa-nav__link" to="#/uswds/home">Access Member</router-link>
+              <router-link class="usa-nav__link" to="/uswds/home">Access Member</router-link>
             </li>
             <li class="usa-nav__primary-item is-current">
-              <router-link class="usa-nav__link usa-current" to="#/uswds/table">HETU</router-link>
+              <router-link class="usa-nav__link usa-current" to="/uswds/table">HETU</router-link>
             </li>
             <li class="usa-nav__primary-item">
               <a class="usa-nav__link" href="javascript:void(0)">
