@@ -1,9 +1,6 @@
 <template>
   <div id="app">
-    <!-- <div id="nav">
-      <router-link to="/">Home</router-link>|
-      <router-link to="/about">About</router-link>
-    </div>-->
+  
     <router-view />
   </div>
 </template>
@@ -12,5 +9,11 @@
 export default {};
 </script>
 
-<style>
+<style scoped>
+body{
+      background-color: #181123;
+      color: white;
+  text-align: center;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 </style>

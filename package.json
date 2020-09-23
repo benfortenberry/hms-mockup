@@ -1,5 +1,5 @@
 {
-  "name": "hms-mockup",
+  "name": "HMS-Mockup",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -7,9 +7,14 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "bootstrap": "^4.5.2",
     "core-js": "^3.6.5",
+    "primeflex": "^2.0.0",
+    "primeicons": "^4.0.0",
+    "primevue": "^2.0.9",
     "uswds": "^2.7.1",
     "vue": "^2.6.11",
+    "vue-material": "^1.0.0-beta-15",
     "vue-router": "^3.2.0"
   },
   "devDependencies": {
