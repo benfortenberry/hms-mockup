@@ -2,7 +2,7 @@
   <div class="main">
     <h1>HMS MOCKUPS</h1>
     <p>
-      Below are links to the same html using the styling of 4 popular css frameworks.
+      Below are links to the same html using the styling of 3 popular css frameworks.
       <br />The only active links within are 'Access Member' and 'HETU'. One shows a possible member detail page and the other a table layout.
     </p>
     <br />
